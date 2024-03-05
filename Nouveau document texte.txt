@@ -1,0 +1,55 @@
+User
+tp2-cloudNative> db.authors.insertMany([
+...   { name: "John Doe", birthdate: "1990-01-01", nationality: "USA" },
+...   { name: "Alice Smith", birthdate: "1985-05-15", nationality: "UK" },
+...   { name: "Bob Johnson", birthdate: "1978-11-30", nationality: "Canada" },
+...   { name: "Emma White", birthdate: "1992-07-20", nationality: "Australia" },
+...   { name: "Michael Brown", birthdate: "1982-04-05", nationality: "Germany" },
+...   { name: "Sophia Taylor", birthdate: "1995-09-12", nationality: "France" },
+...   { name: "Daniel Wilson", birthdate: "1989-03-25", nationality: "Spain" },
+...   { name: "Olivia Martinez", birthdate: "1980-12-18", nationality: "Italy" },
+...   { name: "Matthew Lee", birthdate: "1998-06-08", nationality: "Japan" },
+...   { name: "Grace Kim", birthdate: "1987-02-28", nationality: "South Korea" }
+... ]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('65e5e89f44d37485325d9626'),
+    '1': ObjectId('65e5e89f44d37485325d9627'),
+    '2': ObjectId('65e5e89f44d37485325d9628'),
+    '3': ObjectId('65e5e89f44d37485325d9629'),
+    '4': ObjectId('65e5e89f44d37485325d962a'),
+    '5': ObjectId('65e5e89f44d37485325d962b'),
+    '6': ObjectId('65e5e89f44d37485325d962c'),
+    '7': ObjectId('65e5e89f44d37485325d962d'),
+    '8': ObjectId('65e5e89f44d37485325d962e'),
+    '9': ObjectId('65e5e89f44d37485325d962f')
+  }
+}
+tp2-cloudNative> db.publishers.insertMany([
+...   { name: "ABC Publishing", location: "New York" },
+...   { name: "XYZ Publishers", location: "London" },
+...   { name: "123 Books", location: "Paris" },
+...   { name: "Global Press", location: "Berlin" },
+...   { name: "Sunshine Publications", location: "Tokyo" },
+...   { name: "Eagle Print", location: "Sydney" },
+...   { name: "Mountain View Books", location: "Vancouver" },
+...   { name: "Ocean Publications", location: "Barcelona" },
+...   { name: "City Lights Press", location: "San Francisco" },
+...   { name: "Penguin Books", location: "Toronto" }
+... ]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('65e5e8a844d37485325d9630'),
+    '1': ObjectId('65e5e8a844d37485325d9631'),
+    '2': ObjectId('65e5e8a844d37485325d9632'),
+    '3': ObjectId('65e5e8a844d37485325d9633'),
+    '4': ObjectId('65e5e8a844d37485325d9634'),
+    '5': ObjectId('65e5e8a844d37485325d9635'),
+    '6': ObjectId('65e5e8a844d37485325d9636'),
+    '7': ObjectId('65e5e8a844d37485325d9637'),
+    '8': ObjectId('65e5e8a844d37485325d9638'),
+    '9': ObjectId('65e5e8a844d37485325d9639')
+  }
+}  inser les books
